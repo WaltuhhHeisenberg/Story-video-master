@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.mp4
+*.srt
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime generated files
+work/
+reports/
+render/
+*.done
+*.part.mp4
+list.txt
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Test outputs
+*.pyc
+selftest.pyc
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.temp
+.cache/
