@@ -1,0 +1,225 @@
+{
+ "id": "ICO_lightbulb",
+ "kind": "thumbnail_icon",
+ "name": "lightbulb",
+ "description": "Glowing light bulb with a filament and a screw base.",
+ "keywords": [
+  "light bulb",
+  "lightbulb",
+  "bulb",
+  "idea",
+  "lamp",
+  "electric light",
+  "invention"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#b9c0c8",
+  "light": "#fffbe6",
+  "dark": "#6d7782",
+  "glow": "#ffd54a"
+ },
+ "shapes": [
+  {
+   "type": "ellipse",
+   "box": [
+    20,
+    4,
+    80,
+    64
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#fff3b0",
+     "$glow",
+     "#f0a500"
+    ],
+    "center": [
+     0.5,
+     0.42
+    ],
+    "radius": 0.62
+   },
+   "bevel": 0.5,
+   "outline": "#d28b00",
+   "width": 2.4
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     34,
+     52
+    ],
+    [
+     66,
+     52
+    ],
+    [
+     61,
+     72
+    ],
+    [
+     39,
+     72
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#f4d56a",
+     "#d9a21b"
+    ],
+    "angle": 0
+   },
+   "outline": "#b07a10"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     41,
+     50
+    ],
+    [
+     41,
+     36
+    ],
+    [
+     45,
+     42
+    ],
+    [
+     50,
+     34
+    ],
+    [
+     55,
+     42
+    ],
+    [
+     59,
+     36
+    ],
+    [
+     59,
+     50
+    ]
+   ],
+   "width": 2.2,
+   "color": "#b86e00",
+   "join": "round"
+  },
+  {
+   "type": "rrect",
+   "box": [
+    38,
+    70,
+    62,
+    92
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "$dark",
+     [
+      0.3,
+      "$light"
+     ],
+     [
+      0.62,
+      "$main"
+     ],
+     "$dark"
+    ],
+    "angle": 0
+   },
+   "bevel": 0.5
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     38,
+     76
+    ],
+    [
+     62,
+     78
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     38,
+     82
+    ],
+    [
+     62,
+     84
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     38,
+     88
+    ],
+    [
+     62,
+     90
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     44,
+     92
+    ],
+    [
+     56,
+     92
+    ],
+    [
+     53,
+     99
+    ],
+    [
+     47,
+     99
+    ]
+   ],
+   "fill": "#4b5560"
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    30,
+    12,
+    46,
+    34
+   ],
+   "fill": "#ffffff",
+   "opacity": 0.45,
+   "outline": null
+  }
+ ]
+}

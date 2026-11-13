@@ -1,0 +1,125 @@
+{
+ "id": "ICO_magnifier",
+ "kind": "thumbnail_icon",
+ "name": "magnifier",
+ "description": "Magnifying glass (investigation, discovery, a clue).",
+ "keywords": [
+  "magnifying glass",
+  "magnifier",
+  "search",
+  "clue",
+  "investigate",
+  "discover",
+  "detective",
+  "look closer",
+  "find"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#c9a43a",
+  "light": "#fff0a8",
+  "dark": "#7a5b12",
+  "handle": "#4a2f1a"
+ },
+ "shapes": [
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     58
+    ],
+    [
+     93,
+     93
+    ]
+   ],
+   "width": 11,
+   "color": "$handle",
+   "cap": "round"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     62,
+     62
+    ],
+    [
+     91,
+     91
+    ]
+   ],
+   "width": 3,
+   "color": "#9a6a40",
+   "cap": "round"
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    8,
+    8,
+    72,
+    72
+   ],
+   "fill": {
+    "radial": [
+     "#f2fbff",
+     "#a9d8f0",
+     "#6fb3dc"
+    ],
+    "center": [
+     0.35,
+     0.3
+    ],
+    "radius": 0.8
+   },
+   "opacity": 0.6,
+   "outline": null
+  },
+  {
+   "type": "ring",
+   "box": [
+    4,
+    4,
+    76,
+    76
+   ],
+   "thickness": 8,
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "$dark"
+    ],
+    "angle": 45
+   },
+   "bevel": 0.8
+  },
+  {
+   "type": "path",
+   "points": [
+    [
+     20,
+     40
+    ],
+    [
+     24,
+     28
+    ],
+    [
+     36,
+     20
+    ]
+   ],
+   "closed": false,
+   "smooth": 2,
+   "width": 4,
+   "color": "#ffffff",
+   "opacity": 0.8
+  }
+ ]
+}

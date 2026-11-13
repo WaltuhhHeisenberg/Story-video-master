@@ -1,0 +1,37 @@
+{
+ "id": "THM_autumn_town",
+ "kind": "theme",
+ "name": "autumn_town",
+ "extends": "day",
+ "description": "Orange-leaf town in warm afternoon light.",
+ "keywords": [
+  "autumn",
+  "fall",
+  "harvest",
+  "orange leaves",
+  "october",
+  "november",
+  "market day"
+ ],
+ "sky": [
+  "#5e9fe0",
+  "#ffe1b3"
+ ],
+ "fog": "#ffe1b3",
+ "grass": [
+  "#b5b84a",
+  "#9aa33f"
+ ],
+ "leaves": [
+  "#e07b1a",
+  "#c1121f",
+  "#f2a900",
+  "#b5651d"
+ ],
+ "props": [
+  "PRP_market_stall",
+  "PRP_park_bench"
+ ],
+ "created": "2026-11-11",
+ "made_for": "asset library seed"
+}

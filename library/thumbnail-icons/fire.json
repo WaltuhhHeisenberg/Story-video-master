@@ -1,0 +1,133 @@
+{
+ "id": "ICO_fire",
+ "kind": "thumbnail_icon",
+ "name": "fire",
+ "description": "Flame.",
+ "keywords": [
+  "fire",
+  "flame",
+  "burn",
+  "burning",
+  "hot",
+  "blaze",
+  "heat",
+  "danger",
+  "war"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#ff7a1a",
+  "light": "#ffd34d",
+  "dark": "#d62818"
+ },
+ "shapes": [
+  {
+   "type": "path",
+   "points": [
+    [
+     50,
+     2
+    ],
+    [
+     60,
+     22
+    ],
+    [
+     76,
+     38
+    ],
+    [
+     88,
+     62
+    ],
+    [
+     80,
+     86
+    ],
+    [
+     50,
+     98
+    ],
+    [
+     20,
+     86
+    ],
+    [
+     12,
+     62
+    ],
+    [
+     22,
+     40
+    ],
+    [
+     34,
+     44
+    ],
+    [
+     36,
+     24
+    ]
+   ],
+   "closed": true,
+   "smooth": 2,
+   "fill": {
+    "linear": [
+     "#ff3b1a",
+     "#ff8a1f",
+     "#ffd34d"
+    ],
+    "angle": 90
+   },
+   "outline": "#b3200f",
+   "width": 1.6,
+   "bevel": 0.3
+  },
+  {
+   "type": "path",
+   "points": [
+    [
+     50,
+     40
+    ],
+    [
+     62,
+     60
+    ],
+    [
+     66,
+     78
+    ],
+    [
+     56,
+     92
+    ],
+    [
+     42,
+     92
+    ],
+    [
+     34,
+     78
+    ],
+    [
+     40,
+     58
+    ]
+   ],
+   "closed": true,
+   "smooth": 2,
+   "fill": {
+    "linear": [
+     "#ffd34d",
+     "#fff7c2"
+    ],
+    "angle": 90
+   },
+   "outline": null
+  }
+ ]
+}

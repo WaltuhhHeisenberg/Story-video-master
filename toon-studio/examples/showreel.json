@@ -1,0 +1,351 @@
+{
+  "title": "Showreel",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "supersample": 1.5,
+  "fade": 0.4,
+  "scenes": [
+    {
+      "id": "day",
+      "duration": 8,
+      "world": {
+        "theme": "day",
+        "seed": 10,
+        "houses": 6
+      },
+      "actors": [
+        {
+          "id": "hero",
+          "start": 0.02,
+          "character": {
+            "scarf": 15087942,
+            "hat": "none"
+          },
+          "timeline": [
+            {
+              "t": 0,
+              "action": "walk"
+            },
+            {
+              "t": 4.5,
+              "action": "wave"
+            },
+            {
+              "t": 6.5,
+              "action": "walk"
+            }
+          ]
+        },
+        {
+          "id": "buddy",
+          "follow": {
+            "target": "hero",
+            "side": 1.7,
+            "back": 0.3
+          },
+          "character": {
+            "scale": 0.8,
+            "color": 2829634,
+            "scarf": 16777215
+          }
+        }
+      ],
+      "shots": [
+        {
+          "from": 0,
+          "to": 3,
+          "type": "follow"
+        },
+        {
+          "from": 3,
+          "to": 5.5,
+          "type": "side",
+          "side": -6
+        },
+        {
+          "from": 5.5,
+          "to": 8,
+          "type": "orbit",
+          "radius": 14,
+          "height": 7
+        }
+      ],
+      "captions": [
+        {
+          "from": 0.5,
+          "to": 3,
+          "text": "Welcome to the toon world!"
+        }
+      ]
+    },
+    {
+      "id": "sunset",
+      "duration": 8,
+      "world": {
+        "theme": "sunset",
+        "seed": 11,
+        "houses": 6
+      },
+      "actors": [
+        {
+          "id": "hero",
+          "start": 0.02,
+          "character": {
+            "scarf": 16758531,
+            "hat": "cap"
+          },
+          "timeline": [
+            {
+              "t": 0,
+              "action": "walk"
+            },
+            {
+              "t": 4.5,
+              "action": "run"
+            },
+            {
+              "t": 6.5,
+              "action": "walk"
+            }
+          ]
+        },
+        {
+          "id": "buddy",
+          "follow": {
+            "target": "hero",
+            "side": 1.7,
+            "back": 0.3
+          },
+          "character": {
+            "scale": 0.8,
+            "color": 2829634,
+            "scarf": 16777215
+          }
+        }
+      ],
+      "shots": [
+        {
+          "from": 0,
+          "to": 3,
+          "type": "follow"
+        },
+        {
+          "from": 3,
+          "to": 5.5,
+          "type": "side",
+          "side": -6
+        },
+        {
+          "from": 5.5,
+          "to": 8,
+          "type": "orbit",
+          "radius": 14,
+          "height": 7
+        }
+      ],
+      "captions": []
+    },
+    {
+      "id": "night",
+      "duration": 8,
+      "world": {
+        "theme": "night",
+        "seed": 12,
+        "houses": 6
+      },
+      "actors": [
+        {
+          "id": "hero",
+          "start": 0.02,
+          "character": {
+            "scarf": 448160,
+            "hat": "tophat"
+          },
+          "timeline": [
+            {
+              "t": 0,
+              "action": "walk"
+            },
+            {
+              "t": 4.5,
+              "action": "wave"
+            },
+            {
+              "t": 6.5,
+              "action": "walk"
+            }
+          ]
+        },
+        {
+          "id": "buddy",
+          "follow": {
+            "target": "hero",
+            "side": 1.7,
+            "back": 0.3
+          },
+          "character": {
+            "scale": 0.8,
+            "color": 2829634,
+            "scarf": 16777215
+          }
+        }
+      ],
+      "shots": [
+        {
+          "from": 0,
+          "to": 3,
+          "type": "follow"
+        },
+        {
+          "from": 3,
+          "to": 5.5,
+          "type": "side",
+          "side": -6
+        },
+        {
+          "from": 5.5,
+          "to": 8,
+          "type": "orbit",
+          "radius": 14,
+          "height": 7
+        }
+      ],
+      "captions": []
+    },
+    {
+      "id": "snow",
+      "duration": 8,
+      "world": {
+        "theme": "snow",
+        "seed": 13,
+        "houses": 6
+      },
+      "actors": [
+        {
+          "id": "hero",
+          "start": 0.02,
+          "character": {
+            "scarf": 16196997,
+            "hat": "cap"
+          },
+          "timeline": [
+            {
+              "t": 0,
+              "action": "walk"
+            },
+            {
+              "t": 4.5,
+              "action": "run"
+            },
+            {
+              "t": 6.5,
+              "action": "walk"
+            }
+          ]
+        },
+        {
+          "id": "buddy",
+          "follow": {
+            "target": "hero",
+            "side": 1.7,
+            "back": 0.3
+          },
+          "character": {
+            "scale": 0.8,
+            "color": 2829634,
+            "scarf": 16777215
+          }
+        }
+      ],
+      "shots": [
+        {
+          "from": 0,
+          "to": 3,
+          "type": "follow"
+        },
+        {
+          "from": 3,
+          "to": 5.5,
+          "type": "side",
+          "side": -6
+        },
+        {
+          "from": 5.5,
+          "to": 8,
+          "type": "orbit",
+          "radius": 14,
+          "height": 7
+        }
+      ],
+      "captions": []
+    },
+    {
+      "id": "desert",
+      "duration": 8,
+      "world": {
+        "theme": "desert",
+        "seed": 14,
+        "houses": 6
+      },
+      "actors": [
+        {
+          "id": "hero",
+          "start": 0.02,
+          "character": {
+            "scarf": 5032432,
+            "hat": "none"
+          },
+          "timeline": [
+            {
+              "t": 0,
+              "action": "walk"
+            },
+            {
+              "t": 4.5,
+              "action": "wave"
+            },
+            {
+              "t": 6.5,
+              "action": "walk"
+            }
+          ]
+        },
+        {
+          "id": "buddy",
+          "follow": {
+            "target": "hero",
+            "side": 1.7,
+            "back": 0.3
+          },
+          "character": {
+            "scale": 0.8,
+            "color": 2829634,
+            "scarf": 16777215
+          }
+        }
+      ],
+      "shots": [
+        {
+          "from": 0,
+          "to": 3,
+          "type": "follow"
+        },
+        {
+          "from": 3,
+          "to": 5.5,
+          "type": "side",
+          "side": -6
+        },
+        {
+          "from": 5.5,
+          "to": 8,
+          "type": "orbit",
+          "radius": 14,
+          "height": 7
+        }
+      ],
+      "captions": []
+    }
+  ]
+}

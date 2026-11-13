@@ -1,0 +1,266 @@
+{
+ "id": "ICO_person_tophat",
+ "kind": "thumbnail_icon",
+ "name": "person_tophat",
+ "description": "Cartoon stickman in a top hat (doctor, gentleman, professor).",
+ "keywords": [
+  "doctor",
+  "physician",
+  "professor",
+  "gentleman",
+  "scientist",
+  "surgeon",
+  "top hat",
+  "semmelweis",
+  "inventor"
+ ],
+ "size": [
+  100,
+  116
+ ],
+ "colors": {
+  "ink": "#16161f",
+  "scarf": "#d62828"
+ },
+ "shapes": [
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     76
+    ],
+    [
+     34,
+     112
+    ]
+   ],
+   "width": 7,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     76
+    ],
+    [
+     66,
+     112
+    ]
+   ],
+   "width": 7,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     50
+    ],
+    [
+     50,
+     78
+    ]
+   ],
+   "width": 8,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     54
+    ],
+    [
+     28,
+     70
+    ]
+   ],
+   "width": 6,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     54
+    ],
+    [
+     72,
+     68
+    ]
+   ],
+   "width": 6,
+   "color": "$ink"
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    36,
+    20,
+    64,
+    48
+   ],
+   "fill": "$ink",
+   "bevel": 0.6,
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    42,
+    30,
+    49,
+    38
+   ],
+   "fill": "#ffffff",
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    51,
+    30,
+    58,
+    38
+   ],
+   "fill": "#ffffff",
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    45,
+    32,
+    49,
+    37
+   ],
+   "fill": "#000000",
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    54,
+    32,
+    58,
+    37
+   ],
+   "fill": "#000000",
+   "outline": null
+  },
+  {
+   "type": "path",
+   "points": [
+    [
+     44,
+     41
+    ],
+    [
+     50,
+     44
+    ],
+    [
+     56,
+     41
+    ]
+   ],
+   "closed": false,
+   "smooth": 2,
+   "width": 1.6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     38,
+     46
+    ],
+    [
+     62,
+     46
+    ],
+    [
+     64,
+     53
+    ],
+    [
+     36,
+     53
+    ]
+   ],
+   "fill": "$scarf",
+   "bevel": 0.6
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     56,
+     51
+    ],
+    [
+     65,
+     51
+    ],
+    [
+     67,
+     72
+    ],
+    [
+     59,
+     69
+    ]
+   ],
+   "fill": "$scarf",
+   "bevel": 0.5
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    30,
+    16,
+    70,
+    25
+   ],
+   "fill": "#26262f",
+   "bevel": 0.5
+  },
+  {
+   "type": "rrect",
+   "box": [
+    37,
+    2,
+    63,
+    20
+   ],
+   "r": 2,
+   "fill": {
+    "linear": [
+     "#3a3a46",
+     "#17171d"
+    ],
+    "angle": 0
+   },
+   "bevel": 0.6
+  },
+  {
+   "type": "rrect",
+   "box": [
+    37,
+    13,
+    63,
+    18
+   ],
+   "r": 0,
+   "fill": "$scarf",
+   "outline": null
+  }
+ ]
+}

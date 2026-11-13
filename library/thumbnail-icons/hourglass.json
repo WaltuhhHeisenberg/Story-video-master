@@ -1,0 +1,225 @@
+{
+ "id": "ICO_hourglass",
+ "kind": "thumbnail_icon",
+ "name": "hourglass",
+ "description": "Hourglass with falling sand and wooden frame.",
+ "keywords": [
+  "hourglass",
+  "sand timer",
+  "time running out",
+  "deadline",
+  "countdown",
+  "time"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#8a5a2b",
+  "light": "#c58b4b",
+  "dark": "#4a2d12",
+  "sand": "#f0c24b"
+ },
+ "shapes": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     24,
+     13
+    ],
+    [
+     76,
+     13
+    ],
+    [
+     54,
+     48
+    ],
+    [
+     54,
+     52
+    ],
+    [
+     76,
+     87
+    ],
+    [
+     24,
+     87
+    ],
+    [
+     46,
+     52
+    ],
+    [
+     46,
+     48
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#f4fbff",
+     "#bfe3f5",
+     "#8cc4e3"
+    ],
+    "angle": 60
+   },
+   "opacity": 0.7,
+   "outline": "#5a95b8",
+   "width": 2
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     30,
+     17
+    ],
+    [
+     70,
+     17
+    ],
+    [
+     53,
+     41
+    ],
+    [
+     47,
+     41
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#ffe08a",
+     "$sand"
+    ],
+    "angle": 90
+   },
+   "outline": "#b88a10",
+   "width": 1.2
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     41
+    ],
+    [
+     50,
+     72
+    ]
+   ],
+   "width": 1.6,
+   "color": "$sand"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     27,
+     85
+    ],
+    [
+     73,
+     85
+    ],
+    [
+     60,
+     70
+    ],
+    [
+     50,
+     65
+    ],
+    [
+     40,
+     70
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#ffe08a",
+     "#e0a82e"
+    ],
+    "angle": 90
+   },
+   "outline": "#b88a10",
+   "width": 1.2
+  },
+  {
+   "type": "rrect",
+   "box": [
+    14,
+    3,
+    86,
+    13
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "$dark"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.6
+  },
+  {
+   "type": "rrect",
+   "box": [
+    14,
+    87,
+    86,
+    97
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "$dark"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.6
+  },
+  {
+   "type": "rrect",
+   "box": [
+    18,
+    13,
+    24,
+    87
+   ],
+   "r": 2,
+   "fill": {
+    "linear": [
+     "$light",
+     "$dark"
+    ],
+    "angle": 0
+   }
+  },
+  {
+   "type": "rrect",
+   "box": [
+    76,
+    13,
+    82,
+    87
+   ],
+   "r": 2,
+   "fill": {
+    "linear": [
+     "$light",
+     "$dark"
+    ],
+    "angle": 0
+   }
+  }
+ ]
+}

@@ -1,0 +1,304 @@
+{
+ "id": "ICO_syringe",
+ "kind": "thumbnail_icon",
+ "name": "syringe",
+ "description": "Medical syringe with liquid, plunger and needle (horizontal, needle to the right).",
+ "keywords": [
+  "syringe",
+  "injection",
+  "needle",
+  "vaccine",
+  "shot",
+  "dose",
+  "penicillin",
+  "medicine",
+  "drug"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#9ad0f0",
+  "light": "#f2fbff",
+  "dark": "#4f8fb5",
+  "liq": "#f2c230",
+  "steel": "#c3ccd6"
+ },
+ "shapes": [
+  {
+   "type": "line",
+   "points": [
+    [
+     78,
+     50
+    ],
+    [
+     99,
+     50
+    ]
+   ],
+   "width": 2.4,
+   "color": "$steel"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     70,
+     43
+    ],
+    [
+     79,
+     46
+    ],
+    [
+     79,
+     54
+    ],
+    [
+     70,
+     57
+    ]
+   ],
+   "fill": "$steel"
+  },
+  {
+   "type": "rrect",
+   "box": [
+    22,
+    36,
+    70,
+    64
+   ],
+   "r": 5,
+   "fill": {
+    "linear": [
+     "#f4fbff",
+     "#bfe3f5",
+     "#8cc4e3"
+    ],
+    "angle": 60
+   },
+   "outline": "#5a95b8",
+   "width": 2.2
+  },
+  {
+   "type": "rrect",
+   "box": [
+    25,
+    40,
+    62,
+    60
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "#ffe27a",
+     "$liq"
+    ],
+    "angle": 90
+   },
+   "outline": "#b88a10"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     28,
+     36
+    ],
+    [
+     28,
+     46
+    ]
+   ],
+   "width": 1.4,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     34,
+     36
+    ],
+    [
+     34,
+     42
+    ]
+   ],
+   "width": 1.4,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     40,
+     36
+    ],
+    [
+     40,
+     46
+    ]
+   ],
+   "width": 1.4,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     46,
+     36
+    ],
+    [
+     46,
+     42
+    ]
+   ],
+   "width": 1.4,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     52,
+     36
+    ],
+    [
+     52,
+     46
+    ]
+   ],
+   "width": 1.4,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     36
+    ],
+    [
+     58,
+     42
+    ]
+   ],
+   "width": 1.4,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     64,
+     36
+    ],
+    [
+     64,
+     46
+    ]
+   ],
+   "width": 1.4,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "rrect",
+   "box": [
+    62,
+    28,
+    68,
+    72
+   ],
+   "r": 2,
+   "fill": {
+    "linear": [
+     "$dark",
+     [
+      0.3,
+      "$light"
+     ],
+     [
+      0.62,
+      "$main"
+     ],
+     "$dark"
+    ],
+    "angle": 0
+   }
+  },
+  {
+   "type": "rrect",
+   "box": [
+    8,
+    46,
+    24,
+    54
+   ],
+   "r": 1,
+   "fill": {
+    "linear": [
+     "$dark",
+     [
+      0.3,
+      "$light"
+     ],
+     [
+      0.62,
+      "$main"
+     ],
+     "$dark"
+    ],
+    "angle": 90
+   }
+  },
+  {
+   "type": "rrect",
+   "box": [
+    0,
+    38,
+    7,
+    62
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "$dark",
+     [
+      0.3,
+      "$light"
+     ],
+     [
+      0.62,
+      "$main"
+     ],
+     "$dark"
+    ],
+    "angle": 0
+   },
+   "bevel": 0.5
+  },
+  {
+   "type": "rrect",
+   "box": [
+    21,
+    38,
+    28,
+    62
+   ],
+   "r": 1,
+   "fill": "#303741"
+  }
+ ]
+}

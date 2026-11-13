@@ -1,0 +1,62 @@
+[
+ {
+  "project": "The Doctor Who Told Doctors to Wash Their Hands",
+  "lessons": [
+   {
+    "id": "L-views",
+    "area": "packaging",
+    "symptom": "User asked: viewer must be view-biased (skips under 50k views without a strong reason); research validity 2 weeks (keywords) and 2 months (outliers), old batches kept 1 year.",
+    "cause": "Feed hid all views; store had one 21-day window and deleted expired batches.",
+    "fix": "build_feed.py shows views on every card, candidate gets a random 5k-45k count, refuses without 3 sub-50k decoys; viewer agent view-bias rule; outlier_store.py 14/60/365-day windows and purge after 1 year; skills and READMEs updated.",
+    "files": [
+     "scripts/build_feed.py",
+     "scripts/outlier_store.py",
+     "agents/packaging-lazy-viewer.md",
+     "skills/packaging-cycle/SKILL.md",
+     "research/README.md",
+     "skills/story-video-idea-system/SKILL.md"
+    ],
+    "still_manual": "",
+    "prevention": "check",
+    "covers": []
+   },
+   {
+    "id": "L-clauses",
+    "area": "clauses",
+    "symptom": "TurboScribe watermark in first token; name misheard three times; no voiceover delivered.",
+    "cause": "Transcript tool output used as delivered; voiceover added by the user at export.",
+    "fix": "Rule for working copy of transcript (original kept), silent placeholder audio documented, intake stage name allowed in problem_log.",
+    "files": [
+     "skills/story-video-master/SKILL.md",
+     "scripts/problem_log.py"
+    ],
+    "still_manual": "Names misheard by the transcriber must be checked by hand against the script.",
+    "prevention": "rule",
+    "covers": [
+     "M-clauses-1",
+     "M-clauses-2"
+    ]
+   },
+   {
+    "id": "L-gate1",
+    "area": "qa",
+    "symptom": "Gate 1 BLOCKED: G1-05 auto-named sections, G1-12 gap 4.32 s, G1-25 intake_report not found; Gate 2 G2-19 intake report missing.",
+    "cause": "Report searched in too few folders; sections never named; callout always at 0.3 s.",
+    "fix": "qa_checks.py searches reports/ and work/; bridge puts callouts mid-clause over 4.0 s; section naming rule.",
+    "files": [
+     "scripts/qa_checks.py",
+     "scripts/scene_map_to_toon.py",
+     "skills/story-video-master/SKILL.md"
+    ],
+    "still_manual": "",
+    "prevention": "check",
+    "covers": [
+     "G1-05",
+     "G1-12",
+     "G1-25",
+     "G2-19"
+    ]
+   }
+  ]
+ }
+]

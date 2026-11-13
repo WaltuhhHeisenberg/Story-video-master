@@ -1,0 +1,253 @@
+{
+ "id": "ICO_skull",
+ "kind": "thumbnail_icon",
+ "name": "skull",
+ "description": "Bone-white human skull (death, danger, fatal disease).",
+ "keywords": [
+  "skull",
+  "death",
+  "dead",
+  "deadly",
+  "fatal",
+  "danger",
+  "poison",
+  "bones",
+  "skeleton",
+  "died"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#ece3cf",
+  "light": "#fffaf0",
+  "dark": "#8d8368",
+  "hole": "#16161a"
+ },
+ "shapes": [
+  {
+   "type": "path",
+   "points": [
+    [
+     50,
+     3
+    ],
+    [
+     72,
+     8
+    ],
+    [
+     86,
+     26
+    ],
+    [
+     86,
+     46
+    ],
+    [
+     78,
+     58
+    ],
+    [
+     72,
+     66
+    ],
+    [
+     72,
+     86
+    ],
+    [
+     28,
+     86
+    ],
+    [
+     28,
+     66
+    ],
+    [
+     22,
+     58
+    ],
+    [
+     14,
+     46
+    ],
+    [
+     14,
+     26
+    ],
+    [
+     28,
+     8
+    ]
+   ],
+   "closed": true,
+   "smooth": 2,
+   "fill": {
+    "radial": [
+     "$light",
+     "$main",
+     "#cbbf9f"
+    ],
+    "center": [
+     0.42,
+     0.32
+    ],
+    "radius": 0.8
+   },
+   "bevel": 0.7
+  },
+  {
+   "type": "path",
+   "points": [
+    [
+     22,
+     38
+    ],
+    [
+     34,
+     31
+    ],
+    [
+     45,
+     40
+    ],
+    [
+     45,
+     54
+    ],
+    [
+     34,
+     60
+    ],
+    [
+     24,
+     54
+    ]
+   ],
+   "closed": true,
+   "smooth": 1,
+   "fill": "$hole",
+   "outline": "#000000"
+  },
+  {
+   "type": "path",
+   "points": [
+    [
+     78,
+     38
+    ],
+    [
+     66,
+     31
+    ],
+    [
+     55,
+     40
+    ],
+    [
+     55,
+     54
+    ],
+    [
+     66,
+     60
+    ],
+    [
+     76,
+     54
+    ]
+   ],
+   "closed": true,
+   "smooth": 1,
+   "fill": "$hole",
+   "outline": "#000000"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50,
+     56
+    ],
+    [
+     43,
+     70
+    ],
+    [
+     57,
+     70
+    ]
+   ],
+   "fill": "$hole",
+   "outline": "#000000"
+  },
+  {
+   "type": "rrect",
+   "box": [
+    32,
+    76,
+    68,
+    92
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "$main",
+     "#cbbf9f"
+    ],
+    "angle": 90
+   },
+   "outline": "$dark"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     41,
+     77
+    ],
+    [
+     41,
+     91
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     77
+    ],
+    [
+     50,
+     91
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     59,
+     77
+    ],
+    [
+     59,
+     91
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "cap": "butt"
+  }
+ ]
+}

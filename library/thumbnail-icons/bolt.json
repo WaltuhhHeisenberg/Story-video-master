@@ -1,0 +1,428 @@
+{
+ "id": "ICO_bolt",
+ "kind": "thumbnail_icon",
+ "name": "bolt",
+ "description": "Hex bolt with a washer and diagonal threads (steel).",
+ "keywords": [
+  "bolt",
+  "screw",
+  "nut and bolt",
+  "fastener",
+  "rivet",
+  "hardware"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#a9b3be",
+  "light": "#f1f5f9",
+  "dark": "#5e6975"
+ },
+ "shapes": [
+  {
+   "type": "rrect",
+   "box": [
+    22,
+    24,
+    78,
+    31
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "$dark",
+     [
+      0.3,
+      "$light"
+     ],
+     [
+      0.62,
+      "$main"
+     ],
+     "$dark"
+    ],
+    "angle": 90
+   }
+  },
+  {
+   "type": "rrect",
+   "box": [
+    26,
+    3,
+    74,
+    25
+   ],
+   "r": 5,
+   "fill": {
+    "linear": [
+     "$dark",
+     [
+      0.3,
+      "$light"
+     ],
+     [
+      0.62,
+      "$main"
+     ],
+     "$dark"
+    ],
+    "angle": 0
+   },
+   "bevel": 0.7
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     42,
+     6
+    ],
+    [
+     42,
+     23
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "opacity": 0.55
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     58,
+     6
+    ],
+    [
+     58,
+     23
+    ]
+   ],
+   "width": 1.6,
+   "color": "$dark",
+   "opacity": 0.55
+  },
+  {
+   "type": "rrect",
+   "box": [
+    36,
+    30,
+    64,
+    91
+   ],
+   "r": 1,
+   "fill": {
+    "linear": [
+     "$dark",
+     [
+      0.28,
+      "$light"
+     ],
+     [
+      0.6,
+      "$main"
+     ],
+     "$dark"
+    ],
+    "angle": 0
+   },
+   "bevel": 0.4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     44
+    ],
+    [
+     64,
+     37
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     51
+    ],
+    [
+     64,
+     44
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     58
+    ],
+    [
+     64,
+     51
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     65
+    ],
+    [
+     64,
+     58
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     72
+    ],
+    [
+     64,
+     65
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     79
+    ],
+    [
+     64,
+     72
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     86
+    ],
+    [
+     64,
+     79
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     93
+    ],
+    [
+     64,
+     86
+    ]
+   ],
+   "width": 3.0,
+   "color": "$dark",
+   "cap": "butt",
+   "opacity": 0.75
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     46
+    ],
+    [
+     64,
+     39
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     53
+    ],
+    [
+     64,
+     46
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     60
+    ],
+    [
+     64,
+     53
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     67
+    ],
+    [
+     64,
+     60
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     74
+    ],
+    [
+     64,
+     67
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     81
+    ],
+    [
+     64,
+     74
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     88
+    ],
+    [
+     64,
+     81
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     36,
+     95
+    ],
+    [
+     64,
+     88
+    ]
+   ],
+   "width": 1.2,
+   "color": "$light",
+   "cap": "butt",
+   "opacity": 0.8
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     36,
+     91
+    ],
+    [
+     64,
+     91
+    ],
+    [
+     58,
+     98
+    ],
+    [
+     42,
+     98
+    ]
+   ],
+   "fill": "$main"
+  }
+ ]
+}

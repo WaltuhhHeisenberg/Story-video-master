@@ -1,0 +1,20 @@
+{
+  "name": "story-video-master",
+  "version": "2.2.0",
+  "description": "One plugin for a story-driven YouTube channel. Run A: keyword idea, title + thumbnail stress-tested in a blind feed, retention-tested script, then STOP with a clean voiceover script. Run B: voiceover + transcript -> clauses -> scene map -> 3D video rendered with three.js (toon studio) + check report -> plugin autofix that returns the improved plugin.",
+  "author": {
+    "name": "walterheisenbergbluee"
+  },
+  "keywords": [
+    "youtube",
+    "video-editing",
+    "scripts",
+    "retention",
+    "storytelling",
+    "scene-mapping",
+    "thumbnails",
+    "faceless",
+    "threejs",
+    "3d-animation"
+  ]
+}

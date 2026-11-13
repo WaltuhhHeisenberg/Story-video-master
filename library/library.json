@@ -1,0 +1,837 @@
+{
+ "schema_version": 3,
+ "description": "OPEN 3D asset library of the three.js toon studio. `items` here are the BUILT-IN assets (themes, actions, camera shots, character base, world features). The library GROWS: every asset Claude (or you) makes is a JSON file in library/assets/{themes,props,characters}/ and is picked up automatically (asset_catalog.py info). `mappings` are the rules the bridge reads.",
+ "engine": {
+  "package": "toon-studio",
+  "version": "1.0.0",
+  "three": "0.160.0"
+ },
+ "items": [
+  {
+   "lib_id": "THM_day",
+   "name": "day",
+   "kind": "theme",
+   "description": "day world: neutral, clear, explanatory",
+   "mood": "neutral, clear, explanatory",
+   "keywords": [
+    "day",
+    "morning",
+    "noon",
+    "village",
+    "town",
+    "street",
+    "hospital",
+    "school",
+    "clinic",
+    "city",
+    "market",
+    "daylight",
+    "sunny",
+    "garden",
+    "farm",
+    "vienna",
+    "europe",
+    "ordinary",
+    "calm",
+    "everyday",
+    "lab",
+    "office",
+    "room",
+    "library",
+    "crowd"
+   ],
+   "palette": {
+    "sky_top": "#4aa8ff",
+    "sky_bottom": "#cdeeff",
+    "grass": "#7ed957",
+    "fog": "#cdeeff"
+   },
+   "features": {
+    "trees": true,
+    "pines": true,
+    "houses": true,
+    "windmill": true,
+    "flowers": true,
+    "rocks": true
+   },
+   "extras": [],
+   "moon": false,
+   "builtin": true
+  },
+  {
+   "lib_id": "THM_sunset",
+   "name": "sunset",
+   "kind": "theme",
+   "description": "sunset world: reflective, warm, turning point",
+   "mood": "reflective, warm, turning point",
+   "keywords": [
+    "dusk",
+    "sunset",
+    "evening",
+    "golden",
+    "warm",
+    "farewell",
+    "ending",
+    "memory",
+    "nostalgia",
+    "twilight",
+    "dawn",
+    "sunrise",
+    "reflective",
+    "bittersweet",
+    "late afternoon",
+    "journey",
+    "departure"
+   ],
+   "palette": {
+    "sky_top": "#3b2a6b",
+    "sky_bottom": "#ff9a62",
+    "grass": "#9ccf4a",
+    "fog": "#ffb48a"
+   },
+   "features": {
+    "trees": true,
+    "pines": true,
+    "houses": true,
+    "windmill": true,
+    "flowers": true,
+    "rocks": true
+   },
+   "extras": [
+    "glowWindows"
+   ],
+   "moon": false,
+   "builtin": true
+  },
+  {
+   "lib_id": "THM_night",
+   "name": "night",
+   "kind": "theme",
+   "description": "night world: tense, secret, danger, death",
+   "mood": "tense, secret, danger, death",
+   "keywords": [
+    "night",
+    "dark",
+    "midnight",
+    "moon",
+    "stars",
+    "lamp",
+    "candle",
+    "secret",
+    "fear",
+    "death",
+    "ward",
+    "mystery",
+    "danger",
+    "ominous",
+    "sleepless",
+    "silence",
+    "shadow",
+    "grave",
+    "fever",
+    "tense"
+   ],
+   "palette": {
+    "sky_top": "#070a24",
+    "sky_bottom": "#2a3a7a",
+    "grass": "#2f6b4a",
+    "fog": "#1a2255"
+   },
+   "features": {
+    "trees": true,
+    "pines": true,
+    "houses": true,
+    "flowers": true,
+    "rocks": true
+   },
+   "extras": [
+    "glowWindows",
+    "stars",
+    "lamps"
+   ],
+   "moon": true,
+   "builtin": true
+  },
+  {
+   "lib_id": "THM_snow",
+   "name": "snow",
+   "kind": "theme",
+   "description": "snow world: cold, isolated, harsh",
+   "mood": "cold, isolated, harsh",
+   "keywords": [
+    "winter",
+    "snow",
+    "cold",
+    "ice",
+    "frozen",
+    "arctic",
+    "blizzard",
+    "christmas",
+    "freezing",
+    "lonely",
+    "isolation",
+    "exile",
+    "north",
+    "siberia",
+    "harsh"
+   ],
+   "palette": {
+    "sky_top": "#8fb8e8",
+    "sky_bottom": "#eaf4ff",
+    "grass": "#ffffff",
+    "fog": "#eaf4ff"
+   },
+   "features": {
+    "pines": true,
+    "houses": true,
+    "rocks": true,
+    "snowmen": true
+   },
+   "extras": [
+    "snowfall",
+    "snowCap"
+   ],
+   "moon": false,
+   "builtin": true
+  },
+  {
+   "lib_id": "THM_desert",
+   "name": "desert",
+   "kind": "theme",
+   "description": "desert world: dry, barren, expedition, scarcity",
+   "mood": "dry, barren, expedition, scarcity",
+   "keywords": [
+    "desert",
+    "sand",
+    "dry",
+    "arid",
+    "heat",
+    "hot",
+    "dust",
+    "canyon",
+    "wasteland",
+    "barren",
+    "sahara",
+    "egypt",
+    "drought",
+    "expedition"
+   ],
+   "palette": {
+    "sky_top": "#59b8ff",
+    "sky_bottom": "#ffe9b8",
+    "grass": "#f2d48f",
+    "fog": "#ffe9b8"
+   },
+   "features": {
+    "houses": true,
+    "rocks": true,
+    "cacti": true,
+    "mesas": true
+   },
+   "extras": [],
+   "moon": false,
+   "builtin": true
+  },
+  {
+   "lib_id": "ACT_idle",
+   "name": "idle",
+   "kind": "action",
+   "speed": 0,
+   "description": "stands still, breathing; the actor holds a pose",
+   "keywords": [
+    "stand",
+    "wait",
+    "hold",
+    "still",
+    "pause",
+    "look",
+    "stare",
+    "watch",
+    "silent",
+    "listen",
+    "think",
+    "stop",
+    "observe",
+    "sit",
+    "empty"
+   ],
+   "builtin": true
+  },
+  {
+   "lib_id": "ACT_walk",
+   "name": "walk",
+   "kind": "action",
+   "speed": 2.9,
+   "description": "walks along the path loop",
+   "keywords": [
+    "walk",
+    "stroll",
+    "travel",
+    "arrive",
+    "approach",
+    "enter",
+    "leave",
+    "go",
+    "carry",
+    "track",
+    "journey",
+    "move",
+    "head"
+   ],
+   "builtin": true
+  },
+  {
+   "lib_id": "ACT_run",
+   "name": "run",
+   "kind": "action",
+   "speed": 5.6,
+   "description": "runs along the path loop",
+   "keywords": [
+    "run",
+    "rush",
+    "race",
+    "chase",
+    "flee",
+    "hurry",
+    "dash",
+    "urgent",
+    "escape",
+    "sprint"
+   ],
+   "builtin": true
+  },
+  {
+   "lib_id": "ACT_wave",
+   "name": "wave",
+   "kind": "action",
+   "speed": 0,
+   "description": "stands and waves an arm",
+   "keywords": [
+    "wave",
+    "greet",
+    "hello",
+    "signal",
+    "call",
+    "announce",
+    "warn",
+    "shout",
+    "point",
+    "plead",
+    "argue",
+    "speak",
+    "tell"
+   ],
+   "builtin": true
+  },
+  {
+   "lib_id": "ACT_jump",
+   "name": "jump",
+   "kind": "action",
+   "speed": 0,
+   "description": "jumps in place",
+   "keywords": [
+    "jump",
+    "leap",
+    "shock",
+    "surprise",
+    "discover",
+    "spike",
+    "burst",
+    "hit",
+    "reveal",
+    "realise",
+    "realize"
+   ],
+   "builtin": true
+  },
+  {
+   "lib_id": "ACT_dance",
+   "name": "dance",
+   "kind": "action",
+   "speed": 0,
+   "description": "dances in place",
+   "keywords": [
+    "dance",
+    "celebrate",
+    "triumph",
+    "joy",
+    "party",
+    "cheer",
+    "win",
+    "success",
+    "victory"
+   ],
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_follow",
+   "name": "follow",
+   "kind": "camera_shot",
+   "description": "behind and slightly to the side of the actor",
+   "defaults": {
+    "back": 6.5,
+    "side": 2.6,
+    "up": 2.8,
+    "lookAhead": 2
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_side",
+   "name": "side",
+   "kind": "camera_shot",
+   "description": "tracking from the side, ahead of the actor",
+   "defaults": {
+    "side": -6,
+    "ahead": 4.5,
+    "up": 1.1,
+    "fov": 44
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_orbit",
+   "name": "orbit",
+   "kind": "camera_shot",
+   "description": "circles the actor",
+   "defaults": {
+    "radius": 15,
+    "height": 8.5,
+    "speed": 0.32,
+    "angle": 0.6
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_closeup",
+   "name": "closeup",
+   "kind": "camera_shot",
+   "description": "tight shot of the upper body",
+   "defaults": {
+    "side": 1.2,
+    "ahead": 2.2,
+    "up": 1.4,
+    "fov": 40
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_crane",
+   "name": "crane",
+   "kind": "camera_shot",
+   "description": "moves from one offset to another (camFrom, camTo: back, side, up)",
+   "defaults": {
+    "camFrom": {
+     "back": 8,
+     "side": 3,
+     "up": 1
+    },
+    "camTo": {
+     "back": 3,
+     "side": 2,
+     "up": 7
+    }
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_topdown",
+   "name": "topdown",
+   "kind": "camera_shot",
+   "description": "high overhead (map and layout shots)",
+   "defaults": {
+    "height": 22
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_fixed",
+   "name": "fixed",
+   "kind": "camera_shot",
+   "description": "tripod placed ahead; the actor walks past",
+   "defaults": {
+    "ahead": 10,
+    "side": 4,
+    "up": 1.6
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "CAM_static",
+   "name": "static",
+   "kind": "camera_shot",
+   "description": "absolute position pos [x,y,z], optional look [x,y,z]",
+   "defaults": {},
+   "builtin": true
+  },
+  {
+   "lib_id": "CHR_stickman",
+   "name": "stickman",
+   "kind": "character",
+   "description": "Cartoon stickman rig with scarf, optional hat (none|cap|tophat), colour, scale. Procedural clips: idle, walk, run, wave, jump, dance.",
+   "options": {
+    "color": "int rgb",
+    "scarf": "int rgb",
+    "hat": "none|cap|tophat",
+    "hatColor": "int rgb",
+    "scale": "number"
+   },
+   "builtin": true
+  },
+  {
+   "lib_id": "PLC_path",
+   "name": "path actor",
+   "kind": "placement",
+   "description": "Default: actor walks a looping path (start 0..1, reverse).",
+   "builtin": true
+  },
+  {
+   "lib_id": "PLC_at",
+   "name": "fixed actor",
+   "kind": "placement",
+   "description": "Stationary actor at {x,z,yaw}, optional faceTo another actor.",
+   "builtin": true
+  },
+  {
+   "lib_id": "PLC_follow",
+   "name": "companion",
+   "kind": "placement",
+   "description": "Actor that mirrors another actor's movement (follow: target, side, back).",
+   "builtin": true
+  },
+  {
+   "lib_id": "PRP_builtin_trees",
+   "name": "tree",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "trees",
+   "keywords": [
+    "tree",
+    "trees",
+    "oak",
+    "forest",
+    "woods",
+    "woodland"
+   ],
+   "description": "Built-in world feature 'trees' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_pines",
+   "name": "pine",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "pines",
+   "keywords": [
+    "pine",
+    "pines",
+    "fir",
+    "evergreen"
+   ],
+   "description": "Built-in world feature 'pines' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_houses",
+   "name": "house",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "houses",
+   "keywords": [
+    "house",
+    "houses",
+    "cottage",
+    "cottages",
+    "village",
+    "homes"
+   ],
+   "description": "Built-in world feature 'houses' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_windmill",
+   "name": "windmill",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "windmill",
+   "keywords": [
+    "windmill",
+    "mill"
+   ],
+   "description": "Built-in world feature 'windmill' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_flowers",
+   "name": "flowers",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "flowers",
+   "keywords": [
+    "flower",
+    "flowers",
+    "meadow",
+    "blossom"
+   ],
+   "description": "Built-in world feature 'flowers' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_rocks",
+   "name": "rocks",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "rocks",
+   "keywords": [
+    "rock",
+    "rocks",
+    "boulder",
+    "stone",
+    "stones"
+   ],
+   "description": "Built-in world feature 'rocks' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_cacti",
+   "name": "cactus",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "cacti",
+   "keywords": [
+    "cactus",
+    "cacti"
+   ],
+   "description": "Built-in world feature 'cacti' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_mesas",
+   "name": "mesa",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "mesas",
+   "keywords": [
+    "mesa",
+    "mesas",
+    "butte",
+    "plateau"
+   ],
+   "description": "Built-in world feature 'mesas' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_snowmen",
+   "name": "snowman",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "snowmen",
+   "keywords": [
+    "snowman",
+    "snowmen"
+   ],
+   "description": "Built-in world feature 'snowmen' (themes switch it on/off)."
+  },
+  {
+   "lib_id": "PRP_builtin_lamps",
+   "name": "lamp posts",
+   "kind": "prop",
+   "builtin": true,
+   "feature": "lamps",
+   "keywords": [
+    "lamp",
+    "lamps",
+    "lamp post",
+    "lamppost",
+    "streetlamp"
+   ],
+   "description": "Built-in world feature 'lamps' (themes switch it on/off)."
+  }
+ ],
+ "mappings": {
+  "camera_move_to_shot": {
+   "push_in": {
+    "type": "crane",
+    "camFrom": {
+     "back": 8.5,
+     "side": 2.4,
+     "up": 2.2
+    },
+    "camTo": {
+     "back": 3.2,
+     "side": 1.6,
+     "up": 1.6
+    }
+   },
+   "pull_back": {
+    "type": "crane",
+    "camFrom": {
+     "back": 3.2,
+     "side": 1.6,
+     "up": 1.6
+    },
+    "camTo": {
+     "back": 9,
+     "side": 2.6,
+     "up": 3.6
+    }
+   },
+   "pan_left": {
+    "type": "side",
+    "side": -6,
+    "ahead": 4.5
+   },
+   "pan_right": {
+    "type": "side",
+    "side": 6,
+    "ahead": 4.5
+   },
+   "tilt_up": {
+    "type": "crane",
+    "camFrom": {
+     "back": 6,
+     "side": 2,
+     "up": 0.8
+    },
+    "camTo": {
+     "back": 5,
+     "side": 2,
+     "up": 6.5
+    }
+   },
+   "tilt_down": {
+    "type": "crane",
+    "camFrom": {
+     "back": 5,
+     "side": 2,
+     "up": 6.5
+    },
+    "camTo": {
+     "back": 6,
+     "side": 2,
+     "up": 1.2
+    }
+   },
+   "static": {
+    "type": "fixed",
+    "ahead": 10,
+    "side": 4,
+    "up": 1.6
+   },
+   "track": {
+    "type": "follow",
+    "back": 6.5,
+    "side": 2.6
+   },
+   "whip_pan": {
+    "type": "orbit",
+    "radius": 13,
+    "height": 6,
+    "speed": 1.1
+   }
+  },
+  "scene_type_default_shot": {
+   "character_action": {
+    "type": "follow"
+   },
+   "environment": {
+    "type": "orbit",
+    "radius": 16,
+    "height": 8.5,
+    "speed": 0.25
+   },
+   "object_closeup": {
+    "type": "closeup"
+   },
+   "mechanism": {
+    "type": "side",
+    "side": -5,
+    "ahead": 3.5
+   },
+   "map": {
+    "type": "topdown",
+    "height": 24
+   },
+   "kinetic_text": {
+    "type": "fixed",
+    "ahead": 9,
+    "side": 3.5,
+    "up": 1.8
+   },
+   "metaphor": {
+    "type": "crane"
+   },
+   "comparison_graphic": {
+    "type": "side",
+    "side": 6,
+    "ahead": 5
+   }
+  },
+  "scene_type_default_action": {
+   "character_action": "walk",
+   "environment": "walk",
+   "object_closeup": "idle",
+   "mechanism": "idle",
+   "map": "walk",
+   "kinetic_text": "idle",
+   "metaphor": "idle",
+   "comparison_graphic": "idle"
+  },
+  "transition_to_blend": {
+   "hard_cut": 0.05,
+   "audio_lead": 0.05,
+   "smash_cut": 0.05,
+   "match_cut": 0.5,
+   "motion_carry": 0.6,
+   "dissolve": 0.9,
+   "in_world_wipe": 0.8,
+   "zoom_through": 0.8,
+   "dip_to_black": 0.8,
+   "text_card": 0.3
+  },
+  "hat_keywords": {
+   "tophat": [
+    "top hat",
+    "tophat",
+    "doctor",
+    "physician",
+    "gentleman",
+    "professor",
+    "surgeon",
+    "magician"
+   ],
+   "cap": [
+    "cap",
+    "worker",
+    "boy",
+    "student",
+    "messenger",
+    "courier",
+    "sailor"
+   ]
+  },
+  "plural_cast_keywords": [
+   "two ",
+   "three ",
+   "crowd",
+   "group",
+   "pair",
+   "colleagues",
+   "students",
+   "doctors",
+   "soldiers",
+   "family"
+  ],
+  "scarf_palette": [
+   15087942,
+   16758531,
+   454102,
+   5030911,
+   16188295,
+   16743168
+  ],
+  "defaults": {
+   "width": 1280,
+   "height": 720,
+   "fps": 30,
+   "supersample": 1.5,
+   "fade": 0.4,
+   "crf": 17,
+   "clearance": 9,
+   "burnCaptions": true,
+   "max_scene_seconds": 40
+  }
+ }
+}

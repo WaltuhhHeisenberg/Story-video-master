@@ -1,0 +1,32 @@
+{
+  "max_shot_seconds": 8.0,
+  "min_shot_seconds": 0.5,
+  "shot_length_cv_min": 0.15,
+  "shot_length_check_min_shots": 8,
+  "max_consecutive_same_scene_type": 3,
+  "max_consecutive_same_camera_move": 3,
+  "max_seconds_between_interrupts": 30,
+  "hook_window_seconds": 30,
+  "rehook_interval_seconds": 60,
+  "complexity_points_per_minute_max": 60,
+  "max_consecutive_complexity_3": 2,
+  "max_new_asset_shot_ratio": 0.5,
+  "shots_per_minute_range": [10, 30],
+  "hero_per_minute_range": [0.3, 1.2],
+  "hero_check_min_runtime_seconds": 120,
+  "max_ambient_intensity_3_ratio": 0.2,
+  "max_consecutive_identical_ambient": 4,
+  "hard_cut_ratio_range": [0.6, 0.9],
+  "hard_cut_check_min_boundaries": 8,
+  "max_consecutive_designed_transitions": 2,
+  "dip_to_black_min_seconds_apart": 90,
+  "loop_close_open_within_shots": 2,
+  "loop_unclosed_ignore_final_fraction": 0.1,
+  "time_tolerance_seconds": 0.05,
+  "mood_words": [
+    "eerie", "tense", "tension", "ominous", "moody", "atmospheric", "spooky",
+    "mysterious", "haunting", "foreboding", "sinister", "creepy", "suspenseful",
+    "dramatic", "intense", "uneasy", "unsettling", "gloomy", "somber", "bleak",
+    "melancholy", "dread", "vibe", "mood", "atmosphere"
+  ]
+}

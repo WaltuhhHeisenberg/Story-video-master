@@ -1,0 +1,11 @@
+{
+  "background": {"radial": ["#27506b", "#0c1a2b", "#050b14"], "center": [0.62, 0.45], "radius": 0.95},
+  "post": {"vignette": 0.5, "bloom": 0.35, "contrast": 1.08, "saturation": 1.08, "grain": 0.014},
+  "shapes": [
+    {"type": "spotlight", "center": [900, 330], "radius": 520, "color": "#ffcf4a", "alpha": 0.45},
+    {"type": "spotlight", "center": [290, 360], "radius": 420, "color": "#e63946", "alpha": 0.35},
+    {"type": "icon", "id": "ICO_skull", "box": [30, 90, 540, 600], "glow": {"color": "#e63946", "blur": 50, "alpha": 0.6}, "shadow": {"dx": 0, "dy": 24, "blur": 30, "alpha": 0.6}},
+    {"type": "icon", "id": "ICO_syringe", "box": [520, 60, 1280, 540], "rotate": -16, "glow": {"color": "#ffd34d", "blur": 60, "alpha": 0.75}, "shadow": {"dx": 10, "dy": 30, "blur": 34, "alpha": 0.6}},
+    {"type": "text", "text": "ONE DOSE?", "xy": [640, 640], "size": 150, "fill": {"linear": ["#ffffff", "#ffe9a8"], "angle": 90}, "stroke": "#05080f", "stroke_width": 10, "shadow": {"dx": 0, "dy": 12, "blur": 18, "alpha": 0.75}}
+  ]
+}

@@ -1,0 +1,36 @@
+{
+ "id": "THM_hospital_dusk",
+ "kind": "theme",
+ "name": "hospital_dusk",
+ "extends": "sunset",
+ "description": "Dusk world with lamplit street and pale hospital-white houses.",
+ "keywords": [
+  "hospital",
+  "ward",
+  "clinic",
+  "infirmary",
+  "medical",
+  "sickroom",
+  "surgery",
+  "vienna general"
+ ],
+ "walls": [
+  "#f4f1ea",
+  "#e8e3d8",
+  "#dfe6ee"
+ ],
+ "roofs": [
+  "#7a8594",
+  "#5b6676"
+ ],
+ "features": {
+  "windmill": false,
+  "flowers": false
+ },
+ "props": [
+  "PRP_street_lantern",
+  "PRP_hospital_bed"
+ ],
+ "created": "2026-11-11",
+ "made_for": "asset library seed"
+}

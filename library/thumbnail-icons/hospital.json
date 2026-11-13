@@ -1,0 +1,213 @@
+{
+ "id": "ICO_hospital",
+ "kind": "thumbnail_icon",
+ "name": "hospital",
+ "description": "Hospital building with a red cross.",
+ "keywords": [
+  "hospital",
+  "clinic",
+  "ward",
+  "infirmary",
+  "medical",
+  "doctor",
+  "healthcare",
+  "building"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#e8e4da",
+  "light": "#ffffff",
+  "dark": "#8f8b7e",
+  "accent": "#d62828"
+ },
+ "shapes": [
+  {
+   "type": "rrect",
+   "box": [
+    8,
+    30,
+    92,
+    94
+   ],
+   "r": 2,
+   "fill": {
+    "linear": [
+     "$light",
+     "$main"
+    ],
+    "angle": 0
+   },
+   "bevel": 0.4
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     4,
+     32
+    ],
+    [
+     50,
+     10
+    ],
+    [
+     96,
+     32
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#8f98a6",
+     "#5e6978"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.5
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     44,
+     36
+    ],
+    [
+     56,
+     36
+    ],
+    [
+     56,
+     46
+    ],
+    [
+     66,
+     46
+    ],
+    [
+     66,
+     58
+    ],
+    [
+     56,
+     58
+    ],
+    [
+     56,
+     68
+    ],
+    [
+     44,
+     68
+    ],
+    [
+     44,
+     58
+    ],
+    [
+     34,
+     58
+    ],
+    [
+     34,
+     46
+    ],
+    [
+     44,
+     46
+    ]
+   ],
+   "fill": "$accent",
+   "bevel": 0.7
+  },
+  {
+   "type": "rrect",
+   "box": [
+    14,
+    74,
+    26,
+    86
+   ],
+   "r": 1,
+   "fill": {
+    "linear": [
+     "#bfe3f5",
+     "#6aa8d8"
+    ],
+    "angle": 90
+   },
+   "outline": "$dark",
+   "width": 1.2
+  },
+  {
+   "type": "rrect",
+   "box": [
+    80,
+    74,
+    92,
+    86
+   ],
+   "r": 1,
+   "fill": {
+    "linear": [
+     "#bfe3f5",
+     "#6aa8d8"
+    ],
+    "angle": 90
+   },
+   "outline": "$dark",
+   "width": 1.2
+  },
+  {
+   "type": "rrect",
+   "box": [
+    42,
+    72,
+    58,
+    94
+   ],
+   "r": 1,
+   "fill": "#3a3f49"
+  },
+  {
+   "type": "rrect",
+   "box": [
+    14,
+    38,
+    26,
+    50
+   ],
+   "r": 1,
+   "fill": {
+    "linear": [
+     "#bfe3f5",
+     "#6aa8d8"
+    ],
+    "angle": 90
+   },
+   "outline": "$dark",
+   "width": 1.2
+  },
+  {
+   "type": "rrect",
+   "box": [
+    74,
+    38,
+    86,
+    50
+   ],
+   "r": 1,
+   "fill": {
+    "linear": [
+     "#bfe3f5",
+     "#6aa8d8"
+    ],
+    "angle": 90
+   },
+   "outline": "$dark",
+   "width": 1.2
+  }
+ ]
+}

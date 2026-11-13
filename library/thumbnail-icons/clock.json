@@ -1,0 +1,316 @@
+{
+ "id": "ICO_clock",
+ "kind": "thumbnail_icon",
+ "name": "clock",
+ "description": "Round wall clock with a metal rim, ticks and hands.",
+ "keywords": [
+  "clock",
+  "time",
+  "hours",
+  "minutes",
+  "deadline",
+  "wall clock",
+  "watch",
+  "timer"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#b9a06a",
+  "light": "#f7e8b8",
+  "dark": "#6d5a2c",
+  "accent": "#d62828"
+ },
+ "shapes": [
+  {
+   "type": "ellipse",
+   "box": [
+    2,
+    2,
+    98,
+    98
+   ],
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "$dark"
+    ],
+    "angle": 50
+   },
+   "bevel": 0.9
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    9,
+    9,
+    91,
+    91
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#efe9d8"
+    ],
+    "center": [
+     0.4,
+     0.35
+    ],
+    "radius": 0.8
+   },
+   "outline": "$dark",
+   "width": 1.4
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50.0,
+     20.0
+    ],
+    [
+     50.0,
+     11.0
+    ]
+   ],
+   "width": 2.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     66.5,
+     21.42
+    ],
+    [
+     69.5,
+     16.23
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78.58,
+     33.5
+    ],
+    [
+     83.77,
+     30.5
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     80.0,
+     50.0
+    ],
+    [
+     89.0,
+     50.0
+    ]
+   ],
+   "width": 2.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     78.58,
+     66.5
+    ],
+    [
+     83.77,
+     69.5
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     66.5,
+     78.58
+    ],
+    [
+     69.5,
+     83.77
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50.0,
+     80.0
+    ],
+    [
+     50.0,
+     89.0
+    ]
+   ],
+   "width": 2.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     33.5,
+     78.58
+    ],
+    [
+     30.5,
+     83.77
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     21.42,
+     66.5
+    ],
+    [
+     16.23,
+     69.5
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     20.0,
+     50.0
+    ],
+    [
+     11.0,
+     50.0
+    ]
+   ],
+   "width": 2.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     21.42,
+     33.5
+    ],
+    [
+     16.23,
+     30.5
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     33.5,
+     21.42
+    ],
+    [
+     30.5,
+     16.23
+    ]
+   ],
+   "width": 1.6,
+   "color": "#222222",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     50
+    ],
+    [
+     50,
+     26
+    ]
+   ],
+   "width": 5.2,
+   "color": "#1d1d1d"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     50
+    ],
+    [
+     69,
+     41
+    ]
+   ],
+   "width": 3.8,
+   "color": "#1d1d1d"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     56
+    ],
+    [
+     50,
+     16
+    ]
+   ],
+   "width": 1.4,
+   "color": "$accent"
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    45,
+    45,
+    55,
+    55
+   ],
+   "fill": "$accent",
+   "bevel": 0.5
+  }
+ ]
+}

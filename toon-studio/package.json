@@ -1,0 +1,10 @@
+{
+  "name": "three-toon-studio",
+  "version": "1.0.0",
+  "description": "Headless three.js toolkit for rendering cartoon 3D animated videos (toon worlds, stickman actors, camera director, parallel render farm, auto-generator).",
+  "type": "module",
+  "bin": { "three-toon-studio": "cli.mjs" },
+  "scripts": { "demo": "node cli.mjs render examples/showreel.json --out showreel.mp4" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "gl": "^8.1.6", "three": "0.160.0" }
+}

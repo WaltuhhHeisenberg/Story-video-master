@@ -1,0 +1,100 @@
+{
+ "id": "ICO_key",
+ "kind": "thumbnail_icon",
+ "name": "key",
+ "description": "Old golden key.",
+ "keywords": [
+  "key",
+  "lock",
+  "secret",
+  "unlock",
+  "access",
+  "password",
+  "golden key"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#e0b030",
+  "light": "#fff0a0",
+  "dark": "#9a6a14"
+ },
+ "shapes": [
+  {
+   "type": "ring",
+   "box": [
+    4,
+    26,
+    52,
+    74
+   ],
+   "thickness": 11,
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "$dark"
+    ],
+    "angle": 45
+   },
+   "bevel": 0.8
+  },
+  {
+   "type": "rrect",
+   "box": [
+    46,
+    45,
+    95,
+    55
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "$dark"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.6
+  },
+  {
+   "type": "rrect",
+   "box": [
+    72,
+    53,
+    79,
+    70
+   ],
+   "r": 1,
+   "fill": "$main",
+   "bevel": 0.4
+  },
+  {
+   "type": "rrect",
+   "box": [
+    84,
+    53,
+    91,
+    64
+   ],
+   "r": 1,
+   "fill": "$main",
+   "bevel": 0.4
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    14,
+    36,
+    30,
+    44
+   ],
+   "fill": "#ffffff",
+   "opacity": 0.5,
+   "outline": null
+  }
+ ]
+}

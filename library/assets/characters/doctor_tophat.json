@@ -1,0 +1,39 @@
+{
+ "id": "CHR_doctor_tophat",
+ "kind": "character",
+ "name": "doctor_tophat",
+ "keywords": [
+  "doctor",
+  "physician",
+  "surgeon",
+  "semmelweis",
+  "professor"
+ ],
+ "description": "Stickman doctor: top hat, white coat collar, small bag.",
+ "character": {
+  "color": "#14141f",
+  "scarf": "#ffffff",
+  "hat": "tophat",
+  "hatColor": "#1f1f2b",
+  "scale": 1.05,
+  "parts": [
+   {
+    "attach": "body",
+    "shape": "box",
+    "color": "#6b4423",
+    "pos": [
+     0.35,
+     0.85,
+     0.1
+    ],
+    "scale": [
+     0.3,
+     0.22,
+     0.12
+    ]
+   }
+  ]
+ },
+ "created": "2026-11-11",
+ "made_for": "asset library seed"
+}

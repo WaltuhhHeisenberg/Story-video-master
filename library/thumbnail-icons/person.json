@@ -1,0 +1,226 @@
+{
+ "id": "ICO_person",
+ "kind": "thumbnail_icon",
+ "name": "person",
+ "description": "Cartoon stickman standing, scarf, friendly face (a generic person; recolour the scarf).",
+ "keywords": [
+  "person",
+  "man",
+  "woman",
+  "people",
+  "human",
+  "character",
+  "guy",
+  "someone",
+  "figure",
+  "stickman"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "ink": "#16161f",
+  "scarf": "#d62828"
+ },
+ "shapes": [
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     60
+    ],
+    [
+     34,
+     96
+    ]
+   ],
+   "width": 7,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     60
+    ],
+    [
+     66,
+     96
+    ]
+   ],
+   "width": 7,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     34
+    ],
+    [
+     50,
+     62
+    ]
+   ],
+   "width": 8,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     38
+    ],
+    [
+     28,
+     54
+    ]
+   ],
+   "width": 6,
+   "color": "$ink"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     38
+    ],
+    [
+     72,
+     52
+    ]
+   ],
+   "width": 6,
+   "color": "$ink"
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    36,
+    4,
+    64,
+    32
+   ],
+   "fill": "$ink",
+   "bevel": 0.6,
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    42,
+    14,
+    49,
+    22
+   ],
+   "fill": "#ffffff",
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    51,
+    14,
+    58,
+    22
+   ],
+   "fill": "#ffffff",
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    45,
+    16,
+    49,
+    21
+   ],
+   "fill": "#000000",
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    54,
+    16,
+    58,
+    21
+   ],
+   "fill": "#000000",
+   "outline": null
+  },
+  {
+   "type": "path",
+   "points": [
+    [
+     44,
+     25
+    ],
+    [
+     50,
+     28
+    ],
+    [
+     56,
+     25
+    ]
+   ],
+   "closed": false,
+   "smooth": 2,
+   "width": 1.6,
+   "color": "#ffffff"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     38,
+     30
+    ],
+    [
+     62,
+     30
+    ],
+    [
+     64,
+     37
+    ],
+    [
+     36,
+     37
+    ]
+   ],
+   "fill": "$scarf",
+   "bevel": 0.6
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     56,
+     35
+    ],
+    [
+     65,
+     35
+    ],
+    [
+     67,
+     56
+    ],
+    [
+     59,
+     53
+    ]
+   ],
+   "fill": "$scarf",
+   "bevel": 0.5
+  }
+ ]
+}

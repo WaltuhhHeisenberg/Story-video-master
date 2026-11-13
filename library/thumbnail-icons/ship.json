@@ -1,0 +1,251 @@
+{
+ "id": "ICO_ship",
+ "kind": "thumbnail_icon",
+ "name": "ship",
+ "description": "Steamship with funnel, cabin and smoke.",
+ "keywords": [
+  "ship",
+  "steamship",
+  "boat",
+  "liner",
+  "voyage",
+  "sea",
+  "ocean",
+  "vessel",
+  "sail",
+  "titanic"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#c0392b",
+  "light": "#ffffff",
+  "dark": "#2b3a55"
+ },
+ "shapes": [
+  {
+   "type": "ellipse",
+   "box": [
+    60,
+    6,
+    84,
+    22
+   ],
+   "fill": "#c9ced6",
+   "opacity": 0.8,
+   "outline": null
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    70,
+    0,
+    92,
+    14
+   ],
+   "fill": "#dde1e7",
+   "opacity": 0.7,
+   "outline": null
+  },
+  {
+   "type": "rrect",
+   "box": [
+    54,
+    22,
+    68,
+    44
+   ],
+   "r": 2,
+   "fill": {
+    "linear": [
+     "#e04a3a",
+     "#a82a1d"
+    ],
+    "angle": 0
+   },
+   "bevel": 0.4
+  },
+  {
+   "type": "rrect",
+   "box": [
+    54,
+    22,
+    68,
+    28
+   ],
+   "r": 1,
+   "fill": "#1d1d22"
+  },
+  {
+   "type": "rrect",
+   "box": [
+    22,
+    42,
+    78,
+    62
+   ],
+   "r": 3,
+   "fill": {
+    "linear": [
+     "#ffffff",
+     "#d6dbe3"
+    ],
+    "angle": 90
+   }
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    28,
+    48,
+    38,
+    57
+   ],
+   "fill": "#4aa3df",
+   "outline": "#2b3a55",
+   "width": 1.2
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    42,
+    48,
+    52,
+    57
+   ],
+   "fill": "#4aa3df",
+   "outline": "#2b3a55",
+   "width": 1.2
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    56,
+    48,
+    66,
+    57
+   ],
+   "fill": "#4aa3df",
+   "outline": "#2b3a55",
+   "width": 1.2
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    70,
+    48,
+    80,
+    57
+   ],
+   "fill": "#4aa3df",
+   "outline": "#2b3a55",
+   "width": 1.2
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     4,
+     60
+    ],
+    [
+     96,
+     60
+    ],
+    [
+     84,
+     84
+    ],
+    [
+     16,
+     84
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#d84a3a",
+     "$main",
+     "#7d1f15"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.6
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     6,
+     66
+    ],
+    [
+     94,
+     66
+    ]
+   ],
+   "width": 2,
+   "color": "#ffffff",
+   "cap": "butt"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     0,
+     80
+    ],
+    [
+     12,
+     76
+    ],
+    [
+     24,
+     82
+    ],
+    [
+     38,
+     76
+    ],
+    [
+     52,
+     82
+    ],
+    [
+     66,
+     76
+    ],
+    [
+     80,
+     82
+    ],
+    [
+     92,
+     76
+    ],
+    [
+     100,
+     80
+    ],
+    [
+     100,
+     96
+    ],
+    [
+     0,
+     96
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#3b8ed0",
+     "#1d4f8a"
+    ],
+    "angle": 90
+   },
+   "outline": "#1d4f8a",
+   "opacity": 0.92
+  }
+ ]
+}

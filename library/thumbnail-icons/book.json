@@ -1,0 +1,334 @@
+{
+ "id": "ICO_book",
+ "kind": "thumbnail_icon",
+ "name": "book",
+ "description": "Open old book with leather cover.",
+ "keywords": [
+  "book",
+  "books",
+  "read",
+  "reading",
+  "paper",
+  "study",
+  "diary",
+  "journal",
+  "manual",
+  "records"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#f4ecd6",
+  "light": "#ffffff",
+  "dark": "#7a3b2e"
+ },
+ "shapes": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     2,
+     14
+    ],
+    [
+     2,
+     88
+    ],
+    [
+     50,
+     98
+    ],
+    [
+     98,
+     88
+    ],
+    [
+     98,
+     14
+    ],
+    [
+     50,
+     24
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#9a4d3b",
+     "$dark"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.5
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50,
+     26
+    ],
+    [
+     8,
+     17
+    ],
+    [
+     8,
+     82
+    ],
+    [
+     50,
+     92
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "#d8cca8"
+    ],
+    "angle": 0
+   },
+   "outline": "#a89868"
+  },
+  {
+   "type": "polygon",
+   "points": [
+    [
+     50,
+     26
+    ],
+    [
+     92,
+     17
+    ],
+    [
+     92,
+     82
+    ],
+    [
+     50,
+     92
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "#d8cca8",
+     "$main",
+     "$light"
+    ],
+    "angle": 0
+   },
+   "outline": "#a89868"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     26
+    ],
+    [
+     44,
+     31
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     34
+    ],
+    [
+     44,
+     39
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     42
+    ],
+    [
+     44,
+     47
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     50
+    ],
+    [
+     44,
+     55
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     58
+    ],
+    [
+     44,
+     63
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     14,
+     66
+    ],
+    [
+     44,
+     71
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     31
+    ],
+    [
+     86,
+     26
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     39
+    ],
+    [
+     86,
+     34
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     47
+    ],
+    [
+     86,
+     42
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     55
+    ],
+    [
+     86,
+     50
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     63
+    ],
+    [
+     86,
+     58
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     56,
+     71
+    ],
+    [
+     86,
+     66
+    ]
+   ],
+   "width": 1.6,
+   "color": "#9a9a9a",
+   "cap": "butt"
+  },
+  {
+   "type": "line",
+   "points": [
+    [
+     50,
+     26
+    ],
+    [
+     50,
+     92
+    ]
+   ],
+   "width": 2,
+   "color": "#8a7a50",
+   "opacity": 0.8
+  }
+ ]
+}

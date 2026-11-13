@@ -1,0 +1,135 @@
+{
+ "id": "PRP_market_stall",
+ "kind": "prop",
+ "name": "market stall",
+ "keywords": [
+  "market stall",
+  "stall",
+  "stand",
+  "market",
+  "vendor",
+  "booth"
+ ],
+ "description": "Striped canopy stall with crates.",
+ "radius": 2.0,
+ "place": {
+  "mode": "scatter",
+  "area": "near_path",
+  "count": 5,
+  "d": [
+   4,
+   9
+  ],
+  "scale": [
+   0.9,
+   1.15
+  ]
+ },
+ "parts": [
+  {
+   "shape": "box",
+   "color": "#8b5a2b",
+   "pos": [
+    0,
+    0.5,
+    0
+   ],
+   "scale": [
+    2.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "shape": "cyl",
+   "color": "#6b4423",
+   "pos": [
+    -0.95,
+    1.1,
+    -0.45
+   ],
+   "scale": [
+    0.06,
+    2.2,
+    0.06
+   ]
+  },
+  {
+   "shape": "cyl",
+   "color": "#6b4423",
+   "pos": [
+    0.95,
+    1.1,
+    -0.45
+   ],
+   "scale": [
+    0.06,
+    2.2,
+    0.06
+   ]
+  },
+  {
+   "shape": "box",
+   "color": "$roofs",
+   "pos": [
+    0,
+    2.25,
+    0
+   ],
+   "rot": [
+    0.18,
+    0,
+    0
+   ],
+   "scale": [
+    2.3,
+    0.1,
+    1.5
+   ]
+  },
+  {
+   "shape": "sph",
+   "color": "#ffb703",
+   "pos": [
+    -0.5,
+    1.1,
+    0.1
+   ],
+   "scale": [
+    0.22,
+    0.22,
+    0.22
+   ]
+  },
+  {
+   "shape": "sph",
+   "color": "#e63946",
+   "pos": [
+    0.1,
+    1.1,
+    0.1
+   ],
+   "scale": [
+    0.22,
+    0.22,
+    0.22
+   ]
+  },
+  {
+   "shape": "sph",
+   "color": "#7ed957",
+   "pos": [
+    0.6,
+    1.1,
+    0.1
+   ],
+   "scale": [
+    0.22,
+    0.22,
+    0.22
+   ]
+  }
+ ],
+ "created": "2026-11-11",
+ "made_for": "asset library seed"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "PRP_park_bench",
+ "kind": "prop",
+ "name": "park bench",
+ "keywords": [
+  "bench",
+  "park bench",
+  "seat"
+ ],
+ "description": "Wooden bench along the path.",
+ "radius": 1.2,
+ "place": {
+  "mode": "path_edge",
+  "count": 6,
+  "d": [
+   3.4,
+   4.4
+  ]
+ },
+ "parts": [
+  {
+   "shape": "box",
+   "color": "#8b5a2b",
+   "pos": [
+    0,
+    0.5,
+    0
+   ],
+   "scale": [
+    1.6,
+    0.1,
+    0.5
+   ]
+  },
+  {
+   "shape": "box",
+   "color": "#8b5a2b",
+   "pos": [
+    0,
+    0.95,
+    -0.22
+   ],
+   "scale": [
+    1.6,
+    0.35,
+    0.07
+   ]
+  },
+  {
+   "shape": "box",
+   "color": "#3a3a46",
+   "pos": [
+    -0.7,
+    0.25,
+    0
+   ],
+   "scale": [
+    0.08,
+    0.5,
+    0.45
+   ]
+  },
+  {
+   "shape": "box",
+   "color": "#3a3a46",
+   "pos": [
+    0.7,
+    0.25,
+    0
+   ],
+   "scale": [
+    0.08,
+    0.5,
+    0.45
+   ]
+  }
+ ],
+ "created": "2026-11-11",
+ "made_for": "asset library seed"
+}

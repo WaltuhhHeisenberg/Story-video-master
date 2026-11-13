@@ -1,0 +1,67 @@
+{
+ "id": "PRP_street_lantern",
+ "kind": "prop",
+ "name": "street lantern",
+ "keywords": [
+  "lantern",
+  "gas lamp",
+  "street light"
+ ],
+ "description": "Glowing lantern on a post.",
+ "radius": 0.5,
+ "place": {
+  "mode": "path_edge",
+  "count": 10,
+  "d": [
+   2.6,
+   3.0
+  ]
+ },
+ "parts": [
+  {
+   "shape": "cyl",
+   "color": "#2b2b3a",
+   "pos": [
+    0,
+    1.4,
+    0
+   ],
+   "scale": [
+    0.07,
+    2.8,
+    0.07
+   ]
+  },
+  {
+   "shape": "box",
+   "color": "#2b2b3a",
+   "pos": [
+    0,
+    2.85,
+    0
+   ],
+   "scale": [
+    0.5,
+    0.1,
+    0.5
+   ]
+  },
+  {
+   "shape": "box",
+   "color": "#ffe08a",
+   "glow": true,
+   "pos": [
+    0,
+    2.6,
+    0
+   ],
+   "scale": [
+    0.36,
+    0.4,
+    0.36
+   ]
+  }
+ ],
+ "created": "2026-11-11",
+ "made_for": "asset library seed"
+}

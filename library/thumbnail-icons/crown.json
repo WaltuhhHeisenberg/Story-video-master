@@ -1,0 +1,201 @@
+{
+ "id": "ICO_crown",
+ "kind": "thumbnail_icon",
+ "name": "crown",
+ "description": "Golden crown with jewels.",
+ "keywords": [
+  "crown",
+  "king",
+  "queen",
+  "royal",
+  "monarch",
+  "throne",
+  "emperor",
+  "power"
+ ],
+ "size": [
+  100,
+  100
+ ],
+ "colors": {
+  "main": "#f0b92a",
+  "light": "#fff1a8",
+  "dark": "#a8700f"
+ },
+ "shapes": [
+  {
+   "type": "polygon",
+   "points": [
+    [
+     10,
+     78
+    ],
+    [
+     8,
+     32
+    ],
+    [
+     30,
+     54
+    ],
+    [
+     50,
+     18
+    ],
+    [
+     70,
+     54
+    ],
+    [
+     92,
+     32
+    ],
+    [
+     90,
+     78
+    ]
+   ],
+   "fill": {
+    "linear": [
+     "$light",
+     "$main",
+     "$dark"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.9
+  },
+  {
+   "type": "rrect",
+   "box": [
+    10,
+    68,
+    90,
+    88
+   ],
+   "r": 4,
+   "fill": {
+    "linear": [
+     "$main",
+     "$dark"
+    ],
+    "angle": 90
+   },
+   "bevel": 0.6
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    2,
+    26,
+    14,
+    38
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#e63946"
+    ],
+    "center": [
+     0.35,
+     0.35
+    ]
+   }
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    44,
+    12,
+    56,
+    24
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#e63946"
+    ],
+    "center": [
+     0.35,
+     0.35
+    ]
+   }
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    86,
+    26,
+    98,
+    38
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#e63946"
+    ],
+    "center": [
+     0.35,
+     0.35
+    ]
+   }
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    22,
+    72,
+    34,
+    84
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#2a7de1"
+    ],
+    "center": [
+     0.35,
+     0.35
+    ]
+   }
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    44,
+    72,
+    56,
+    84
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#e63946"
+    ],
+    "center": [
+     0.35,
+     0.35
+    ]
+   }
+  },
+  {
+   "type": "ellipse",
+   "box": [
+    66,
+    72,
+    78,
+    84
+   ],
+   "fill": {
+    "radial": [
+     "#ffffff",
+     "#2fbf71"
+    ],
+    "center": [
+     0.35,
+     0.35
+    ]
+   }
+  }
+ ]
+}
