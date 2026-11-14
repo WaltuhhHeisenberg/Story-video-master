@@ -13,5 +13,9 @@ Describe, in this order and in plain words:
 4. **The text on the image**, exactly as written, and how easy it was to read at phone size (open the phone-size file too).
 5. **What you think is going on** in one sentence, and **what question or tension it makes you want answered**.
 6. **What confused you**, or looked like something else than it probably is.
+7. **At a glance (phone size):** say in one plain sentence what the picture is, and how fast you got it: **instant**, **slow** or **never**.
+8. **The loudest thing** (highest contrast) and whether anything else competed with it.
+9. **How much the picture already told you:** **nothing** (no question), **only the question**, or **the answer** (nothing left to wonder). Say what you could already guess.
+10. **Anything familiar** you recognised at once, if anything.
 
-Rules: be literal and honest, not generous; judge the phone-size image as well as the large one; do not guess the video topic from outside knowledge unless the picture itself shows it; keep it under 250 words. You never see the brief and you never rewrite or improve the image.
+Rules: be literal and honest, not generous; judge the phone-size image as well as the large one; do not guess the video topic from outside knowledge unless the picture itself shows it; keep it under 320 words. You never see the brief and you never rewrite or improve the image.

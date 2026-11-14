@@ -82,20 +82,7 @@ Style references (illustrating the register, not templates to copy word for word
 - the fraud that built the modern world
 - how the steam engine changed everything
 
-**Thumbnails: go to the extreme, not the surface.** Thumbnails decide the click, so they get the most rigorous work in this skill. Before producing any thumbnail concept, read the `extreme-thumbnails` skill in full. The standard in short:
-- Mine the actual story for true, specific physical details (objects, tools, materials, numbers) and build the thumbnail from one of them, rather than reaching for a portrait, an archival photo, the finished machine or a generic prop.
-- Generate at least 15 concepts across the channel's three thumbnail styles, then kill most of them with a one-line reason each, using the kill tests in the reference.
-- Deliver 1 primary and 2 variants (ideally from different styles), each with a designer-ready brief precise enough that two designers would produce nearly the same image.
-
-The three styles (full mechanics, execution notes and fail cases are in the reference):
-1. **Impossible Object Hook:** one mundane, everyday object zoomed in next to a massive historical consequence, so the viewer can only resolve the riddle by clicking.
-2. **Unsolved Mystery / Censored Detail:** an unmistakable blueprint, map or part with one vital piece removed, circled or blacked out, so the missing 1% itches.
-3. **Counter-Intuitive Truth:** the raw, gritty, low-tech reality that subverts the romanticized story. It must be true and paid off in the video.
-
-**Thumbnail text rules**
-- One or two words, usually a question that plants doubt about who is the hero or villain, or a clipped claim ("The missing 1%").
-- Also off-context: no names, no type labels, no explanation of the story. The text adds a second question to the image; it never repeats the image or the title.
-- Offer 3-5 text options. Style references: "victim?", "genius?".
+**Thumbnails: go to the extreme, not the surface.** Thumbnails decide the click. Before producing any thumbnail concept, read the `extreme-thumbnails` skill in full (the three styles, the kill tests, the thumbnail text rules, and the viewer psychology in `skills/extreme-thumbnails/references/viewer-psychology.md`). In short: mine the story for true physical details, generate at least 15 concepts, each written as Half A (picture) / Half B (title) / the join, score them C1-C6 and kill most with a one-line reason, then deliver 1 primary and 2 variants with drawable designer briefs. Thumbnail text and titles stay off-context (no names, no type labels, no explanation). Offer 3-5 text options.
 
 ### 6. Story spine
 

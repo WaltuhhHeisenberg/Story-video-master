@@ -9,11 +9,22 @@ This is the full standard. Apply all of it before producing any thumbnail concep
 
 ## What "extreme level" means (and what surface level looks like)
 
-**Surface level (this is a fail):**
-Look into latest outlier analysis(saved/new) with thumbnails over 100k views. Saved = the active batches in `research/outliers/` (the run's `<run folder>/research/outliers/` first, then the plugin's; layout in `research/README.md`), with their real thumbnail images in `thumbs/`. New = research it fresh and save it there with `python scripts/outlier_store.py save`.
+**Surface level (this is a fail):** a first-idea concept; a portrait, an archival photo, the finished machine, a generic prop (atom, light bulb); text that explains the image; fewer than 15 concepts; concepts made without studying the outliers.
 
-**Extreme level (this is the bar):**
-Youtube shows 30-40 thumbnails in the feed/search/homepage. An extreme thumbnail stands out in those 30-40 thumbnails. The chances are really low to get a click so you have to interrupt the pattern hardest possible to grab the attention immediately and establish a strong curiosity gap than others so viewer does not click away.
+**Extreme level (this is the bar):** YouTube shows 30-40 thumbnails in the feed, search or homepage, and the chances of a click are low. An extreme thumbnail is built against that crowd: it studies the saved outlier thumbnails first (the active batches in `research/outliers/`, the run's `<run folder>/research/outliers/` first, then the plugin's; layout in `research/README.md`; real images in `thumbs/`; research new ones with `python scripts/outlier_store.py save` when none is active), interrupts the pattern as hard as possible and opens a stronger curiosity gap than any of them, so the viewer does not scroll away.
+
+## The judge: how the click is decided (read before making anything)
+
+The packaging is judged by the `packaging-lazy-viewer`, who clicks exactly one card in the whole feed: the card that is **highest** on these six tests. Being acceptable is a loss. Full explanation, checks and the scorecard: `skills/extreme-thumbnails/references/viewer-psychology.md`. In short:
+
+- **C1 Contrast:** one element is the loudest thing on the card AND stands out against the crowd of outliers.
+- **C2 Mystery with the least context:** the smallest amount of information that still forms a question. One subject, one gap. Nothing that answers it.
+- **C3 Two halves of a story:** the picture is half, the title is the other half, neither complete alone, nothing spoiled.
+- **C4 Familiar entity (optional):** something known at a glance (never a named person), only if it adds no context.
+- **C5 Easily understandable:** one glance on a phone, no decoding. Clear beats clever.
+- **C6 Underdog:** the card is shown with a low view count, so it must be stronger than the biggest cards, not just good.
+
+Every concept is written as Half A (picture) / Half B (title) / the join (what the video pays off) before anything else, and scored on the scorecard in that file.
 
 ## A few style discussed below(not rigid, they establish a strong curiosity gap, you can even create a style yourself like these but they must establish a strong curiosity gap):
 
@@ -39,15 +50,17 @@ Challenge what casual viewers assume they already know by showing the raw, gritt
 - **Text:** one or two words, usually a question or a clipped claim ("victim?", "genius?", "The missing 1%"). The text adds a second question to the image, never repeats it.
 - **Image + title are complements.** The title makes the broad human promise containing the keyword; the thumbnail adds the unexplained twist. They must not say the same thing.
 - **One focal point, one idea.** If you can't describe the thumbnail in one sentence, it is too busy.
+- **Familiar entity (C4) vs off-context.** A familiar entity is a thing, not a person: an everyday object, a generic cartoon figure, an animal, a place type. Never a named person, a real likeness or a logo.
+- **Least context (C2).** After the concept works, remove one more element. If the question survives, keep it removed.
 - **Keyword connection.** The keyword should still be legible in spirit (the object or subject belongs to the keyword's world) so the click matches the search demand.
-- **Honest payoff.** Every promise in the thumbnail is paid off in the video.
+- **Truth, in one place.** The picture is not limited to literal scenes from the video: a symbol, an exaggerated object or a visual metaphor is allowed when it raises the question (video truths do not limit the thumbnail). Two lines still hold: the title and the on-image text never state a falsehood, and the question the card raises is one the video answers. A card whose question the video cannot answer is a bait-and-switch and fails.
 - CHANNEL STYLE: detailed, realistic-looking lit illustration (shaded objects from the icon library, soft shadows, glow, real type), never flat MS Paint fills. Every object must be recognisable to a stranger in half a second (see skill thumbnail-making).
 
 ## The kill tests (run on every concept)
-1. **Explain why the viewer will click the thumbnail while he has other 40 thumbnails competing for the click(use the saved outlier data in `research/outliers/` to test the thumbnail between the others). Do it in the most strict way possible and use literal common sense without pretending anything. If you have no answer, kill it.
-2. **does it raise a question the viewer can only resolve by clicking between 40 other thumbnails? If no, kill.
-3. **at phone-feed size, in one second, is there a single clear focal point? If no, kill.
-4. **does it have a hundred other videos used this exact image (generic atom, light bulb, portrait with arrows)? If yes, kill or push further.
+0. **Scorecard.** Score the concept on C1-C6 (`skills/extreme-thumbnails/references/viewer-psychology.md`). Any FAIL on C1, C2, C3 or C5 kills it, and a WEAK on C6 kills it.
+1. **Crowd test (strict C6).** Explain why the viewer clicks this thumbnail while 40 others compete for the click. Use the saved outliers in `research/outliers/`, place the concept among them, be strict and use plain common sense without pretending. No honest answer: kill it.
+2. **Question test (C2).** Does it raise a question that can only be resolved by clicking, between 40 other thumbnails? If not, kill it.
+3. **Glance test (C1, C5).** At phone-feed size, in one second, is there a single clear focal point? If not, kill it.
+4. **Cliché test.** Have a hundred other videos used this exact image (generic atom, light bulb, portrait with arrows)? If so, kill it or push it further.
 
-**MOST IMPORTANTLY, VIDEO TRUTHS DO NOT LIMIT THE THUMBNAILS**.
-Give 1 primary thumbnail at the end.
+Deliver 1 primary thumbnail and 2 variants (ideally from different styles), each with a drawable designer brief.

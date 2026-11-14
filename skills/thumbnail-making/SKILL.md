@@ -21,6 +21,13 @@ Everything in the brief must be something the renderer can show **recognisably**
 5. **Text:** the exact words (one or two), where.
 6. **Deliberately absent:** what must NOT show (the expected romantic image, a formula).
 7. **What the viewer must conclude** in one line (the question or tension). The blind reader is checked against this.
+8. **The psychological spec** (from `skills/extreme-thumbnails/references/viewer-psychology.md`); it is what the drawing must protect:
+   - **Contrast plan (C1):** the single loudest element, what it contrasts with, and the palette choice that separates the card from the outlier crowd.
+   - **Context list (C2):** the subject, the gap, and nothing else that explains. Anything on the card that is neither is listed as "removed".
+   - **The two halves (C3):** Half A (what the picture says), Half B (the title), and the join (what the video pays off, shown in neither).
+   - **Familiar entity (C4):** what it is and where it sits, or "none".
+   - **Glance sentence (C5):** the picture in one plain sentence a stranger would say at a glance.
+   - **Underdog line (C6):** the outlier this card must beat and the named reason it does.
 
 ## The look (always): detailed and real, never flat
 - Anti-aliased, lit and shaded: gradients, bevel, soft shadows, glow, highlights, a lit background (use `spotlight`, never a hard-edged circle for light), vignette, bloom and slight grain from `post`. **No flat fills, no thick black cartoon outlines, no MS Paint look.**
@@ -42,8 +49,8 @@ Everything in the brief must be something the renderer can show **recognisably**
 
 ## Recognition (the part that was missing)
 Spawn `story-video-master:thumbnail-reader` with **only the two PNG paths** (never the brief, the card or the title). It describes what it sees, names every object, says what is happening and what question it raises. Compare with the brief's elements and "what the viewer must conclude":
-- **PASS:** every key element named correctly (a synonym is fine), the focal element named first, the text read exactly, and the tension or question stated close to the brief's.
-- **MISS:** an element called something else, not noticed, or the story misunderstood. Fix the cause: bigger, add the defining feature, use another icon, remove clutter, fix contrast. Re-render and test with a **fresh** reader. At most 3 loops.
+- **PASS:** every key element named correctly (a synonym is fine), the focal element named first, the text read exactly, and the tension or question stated close to the brief's. Also: the reader's **glance sentence** matches the brief's (C5), the **loudest element** he names is the contrast plan's element (C1), and the picture told him **the question but not the answer** (C2). Anything the reader names that is not in the brief's context list is unplanned context: remove it.
+- **MISS:** an element called something else, not noticed, or the story misunderstood; the wrong thing was loudest; the reader could not say what it is at a glance; the picture explained the answer, or asked no question. Fix the cause: bigger, add the defining feature, use another icon, remove clutter, fix contrast. Re-render and test with a **fresh** reader. At most 3 loops.
 
 ## Growing the icon library (when an object is missing)
 Icons are JSON in `library/thumbnail-icons/<name>.json`: a 100 x 100 unit drawing of one object made from the shape vocabulary with the palette keys `$main $light $dark $accent`, gradients and bevel, 5-40 shapes. Copy the structure of an existing icon (`bolt.json`, `flask.json`). Then:

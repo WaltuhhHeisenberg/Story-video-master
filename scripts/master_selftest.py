@@ -204,6 +204,45 @@ try:
         run([BF, "verdict", "--key", os.path.join(pk, "k.json"), "--verdict", os.path.join(pk, "v.md")], "build_feed verdict parses a pass")
 except ImportError:
     bad.append("Pillow is not installed (thumbnail renderer, feed builder and outlier store need it)")
+# psychology wiring: the viewer-psychology rules must be reachable from every piece that makes or judges a thumbnail, and the gate must work
+PSY = "skills/extreme-thumbnails/references/viewer-psychology.md"
+if not os.path.exists(os.path.join(ROOT, PSY)):
+    bad.append(PSY + " is missing")
+else:
+    for f_ in ("agents/master-packager.md", "agents/thumbnail-maker.md", "skills/extreme-thumbnails/SKILL.md", "skills/thumbnail-making/SKILL.md", "skills/packaging-cycle/SKILL.md"):
+        if "viewer-psychology" not in open(os.path.join(ROOT, f_), encoding="utf-8-sig").read():
+            bad.append(f_ + " does not point to viewer-psychology.md (the psychology would sit unused)")
+    pc_ = open(os.path.join(ROOT, "skills", "packaging-cycle", "SKILL.md"), encoding="utf-8-sig").read()
+    if pc_.count("check_scorecard.py") < 3:
+        bad.append("packaging-cycle must run check_scorecard.py (scorecard gate in round 1 and round N, and the debrief gate)")
+    lv_ = open(os.path.join(ROOT, "agents", "packaging-lazy-viewer.md"), encoding="utf-8-sig").read()
+    for k_ in ("C1", "C2", "C3", "C4", "C5", "C6", "VERDICT: CLICK", "PULL:"):
+        if k_ not in lv_:
+            bad.append(f"agents/packaging-lazy-viewer.md lacks '{k_}' (the debrief must label defects C1-C6 and the verdict must parse)")
+    ref_ = open(os.path.join(ROOT, PSY), encoding="utf-8-sig").read()
+    for k_ in ("C1.", "C2.", "C3.", "C4.", "C5.", "C6."):
+        if k_ not in ref_:
+            bad.append(f"viewer-psychology.md lacks the {k_[:-1]} section")
+    good_ = ("Concept: a bolt beside a cracked clock face\nHalf A: a hex bolt and a cracked clock   Half B: a broad claim about one small thing   The join: which bolt and why it failed\n"
+             "C1 contrast: STRONG - the bolt is the only bright warm object on a dark cold field unlike the outliers\n"
+             "C2 least context: OK - only the bolt and the crack remain so the answer cannot be guessed from the picture\n"
+             "C3 two halves: STRONG - the picture shows a part and the title the claim and neither is complete alone\n"
+             "C4 familiar entity: none, not needed\n"
+             "C5 understandable: OK - one bolt and one clock named correctly by a stranger at phone size in a glance\n"
+             "C6 underdog: STRONG - beats the biggest outlier on contrast and the second outlier on question strength\n"
+             "Verdict: KEEP\nContrast plan: bolt. Context list: bolt, crack. Glance sentence: a bolt by a clock. Underdog: outlier 4.\n")
+    open(os.path.join(t, "sc_good.md"), "w").write(good_)
+    open(os.path.join(t, "sc_bad.md"), "w").write(good_.replace("C2 least context: OK", "C2 least context: FAIL"))
+    open(os.path.join(t, "sc_nospec.md"), "w").write(good_.split("Contrast plan")[0])
+    open(os.path.join(t, "db_good.md"), "w").write("Defects: C2 the answer can be guessed\n")
+    open(os.path.join(t, "db_bad.md"), "w").write("Defects: it felt weak\n")
+    CS = os.path.join(H, "check_scorecard.py")
+    run([CS, "scorecard", "--file", os.path.join(t, "sc_good.md")], "psychology gate passes a complete scorecard")
+    run([CS, "scorecard", "--file", os.path.join(t, "sc_bad.md")], "psychology gate must refuse a KEEP with a FAIL on C2", ok=(1,))
+    run([CS, "scorecard", "--file", os.path.join(t, "sc_nospec.md")], "psychology gate must refuse a brief without the psychological spec", ok=(1,))
+    run([CS, "scorecard", "--file", os.path.join(t, "sc_good.md"), "--expect", "3"], "psychology gate must refuse fewer KEEP blocks than expected", ok=(1,))
+    run([CS, "debrief", "--file", os.path.join(t, "db_good.md")], "debrief gate passes a labelled debrief")
+    run([CS, "debrief", "--file", os.path.join(t, "db_bad.md")], "debrief gate must refuse an unlabelled debrief", ok=(1,))
 # 7. wiring: every skill, agent and command must have a job in the master's wiring map
 mt = open(os.path.join(sd, "story-video-master", "SKILL.md"), encoding="utf-8-sig").read()
 parts = mt.split("## Wiring map", 1)

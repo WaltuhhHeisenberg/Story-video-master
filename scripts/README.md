@@ -16,7 +16,7 @@ Python 3.9+, `numpy`, `pillow`, ffmpeg/ffprobe on PATH; Node 18+ for the 3D rend
 | `package_output.py --project DIR --out OUT` | delivery folder: video, srt, project, plan, reports, README_FIRST |
 
 ## Run A and shared
-`clean_voiceover_script.py`, `outlier_store.py`, `build_feed.py`, `make_thumbnail.py` (realistic thumbnail renderer, packaging test), `thumbnail_icons.py` (the open icon library: info/find/validate/add/sheet/preview), `problem_log.py`, `vo_common.py`.
+`clean_voiceover_script.py`, `outlier_store.py`, `build_feed.py`, `check_scorecard.py` (psychology gate: scorecard + debrief labels, run by packaging-cycle every round), `make_thumbnail.py` (realistic thumbnail renderer, packaging test), `thumbnail_icons.py` (the open icon library: info/find/validate/add/sheet/preview), `problem_log.py`, `vo_common.py`.
 
 ## Plugin self-improvement
 `finish_project.py` (collect problems, require lessons, self-test, bump version, ship `.plugin`), `selftest.py`, `master_selftest.py`.

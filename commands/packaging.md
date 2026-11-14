@@ -7,4 +7,4 @@ Run Stage 2 of the `story-video-master` skill, using `packaging-cycle` completel
 
 Input: $ARGUMENTS (default: the most recent folder under `story-video-run/`).
 
-Start only from `01-video-brief.md` and the saved outlier data. Use `story-video-master:master-packager`, `story-video-master:thumbnail-maker` (real image per `thumbnail-making`) and a fresh `story-video-master:packaging-lazy-viewer` every round. If the brief or the outlier thumbnails are missing, say so and stop. Output `02-packaging.md`, then offer: "Run /write-script."
+Start only from `01-video-brief.md` and the saved outlier data. Use `story-video-master:master-packager`, `story-video-master:thumbnail-maker` (real image per `thumbnail-making`) and a fresh `story-video-master:packaging-lazy-viewer` every round. If the brief or the outlier thumbnails are missing, say so and stop. Every round must pass the psychology gate (`scripts/check_scorecard.py`) before a thumbnail is drawn. Output `02-packaging.md`, then offer: "Run /write-script."

@@ -81,7 +81,7 @@ Follow `skills/master-autofix`: collect every problem of the whole run (Run A + 
 | `story-video-master` | orchestrator, the two runs and the separate-chats rule | all | `/make-video`, `/build-video` |
 | `story-video-idea-system` | keyword research, story type, titles, thumbnail concepts, story spine | 1 | `/idea` |
 | `extreme-thumbnails` | thumbnail standard used by the idea stage and by `story-video-master:master-packager` | 1, 2 | via `/idea`, `/packaging` |
-| `packaging-cycle` | blind-feed packaging test, 3-8 rounds | 2 | `/packaging` |
+| `packaging-cycle` | blind-feed packaging test, 3-8 rounds; runs the psychology gate (`scripts/check_scorecard.py`, rules in `skills/extreme-thumbnails/references/viewer-psychology.md`) every round | 2 | `/packaging` |
 | `thumbnail-making` | draws the real thumbnail image | 2 | via `/packaging` |
 | `story-explainer-scripts` | script rulebook: write, audit, hook rules | 3a, 3b | `/write-script`, `/lazy-test`, `/fix-script`, `/retention-loop` |
 | `voiceover-ready-script` | clean narration-only text, then STOP | 3c | `/voiceover-script` |
